@@ -2,16 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logotipo favicom.avif"
-      type="image/x-icon"
-    />
-    <link rel="icon" type="image/svg+xml" href="" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sedan+SC&display=swap"
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,13 +22,13 @@
       <nav>
         <ul id="menu" class="menu">
           <li class="menu__item">
-            <a class="menu__link" href="#">Acerca de mi</a>
+            <a class="menu__link" href="#about-me">Acerca de mi</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">Trabajos</a>
+            <a class="menu__link" href="#trabajos">Trabajos</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">Contacto</a>
+            <a class="menu__link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </nav>
@@ -43,6 +37,83 @@
       </h1>
       <span class="header__subtitle">diseñador web</span>
     </header>
+    <div class="about-me">
+      <h2 id="about-me" class="about-me__title">Acerca de mi</h2>
+      <div class="about-me__container">
+        <div>
+          <p class="about-me__text">
+            Mi nombre es Thierry Huerga, actualmente estoy estudiando un curso
+            de programador web en la escuela Trazos, en el curso estoy
+            aprendiendo a usar HTML, CSS Y JAVASCRIPT.
+          </p>
+          <p class="about-me__text">
+            En mi portfolio, encontrarás ejemplos de mi trabajo, donde podrás
+            apreciar mi enfoque en el diseño limpio, el código semántico y la
+            atención al detalle. Estoy emocionado por seguir creciendo y
+            aprendiendo en este apasionante campo del desarrollo web, y espero
+            tener la oportunidad de contribuir con mi experiencia y creatividad.
+          </p>
+        </div>
+
+        <img
+          class="about-me__image"
+          src="./assets/images/pngtree-wallpaper-of-lions-in-space-picture-image_3428010.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="jobs">
+      <h2 id="trabajos" class="jobs__title">Trabajos</h2>
+      <img
+        class="jobs__image"
+        src="./assets/images/Huddle landing page.jpg"
+        alt=""
+      />
+      <img
+        class="jobs__image"
+        src="./assets/images/Insure landing page.jpg"
+        alt=""
+      />
+      <img
+        class="jobs__image"
+        src="./assets/images/workit-landing-page.jpg"
+        alt=""
+      />
+      <img
+        class="jobs__image"
+        src="./assets/images/Web menu responsive.jpg"
+        alt=""
+      />
+    </div>
+    <div class="footer">
+      <h2 class="footer__title" id="contacto">Contacto</h2>
+      <div class="footer__container">
+        <img
+          class="footer__image"
+          src="./assets/images/png-transparent-gmail-logo-gmail-email-icon-logo-gmail-logo-angle-text-rectangle-thumbnail.png"
+          alt="logo gmail"
+        />
+        <span class="footer__info">thuergamoreno@gmail.com</span>
+      </div>
+
+      <div class="footer__container">
+        <img
+          class="footer__image"
+          src="./assets/images/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png"
+          alt="logo gmail"
+        />
+        <span class="footer__info">https://github.com/keketee</span>
+      </div>
+
+      <div class="footer__container">
+        <img
+          class="footer__image"
+          src="./assets/images/png-transparent-telephone-logo-iphone-telephone-call-smartphone-phone-electronics-text-trademark-thumbnail.png"
+          alt="logo gmail"
+        />
+        <span class="footer__info">Tlf. 615017745</span>
+      </div>
+    </div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

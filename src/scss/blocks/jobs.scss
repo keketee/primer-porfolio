@@ -1,0 +1,25 @@
+@use '../mixins/hover.scss' as *;
+@use '../mixins/responsive.scss' as *;
+
+.jobs {
+  width: 100%;
+  background-color: rgb(127, 59, 132);
+
+  &__title {
+    padding: 20px;
+    color: rgb(135, 201, 179);
+    width: 200px;
+    margin: 0;
+    border-bottom: 3px solid rgb(118, 30, 30);
+    margin-bottom: 40px;
+  }
+
+  &__image {
+    margin-bottom: 50px;
+
+    @include responsive(laptop) {
+      margin-inline: auto;
+      padding: 20px;
+    }
+  }
+}
